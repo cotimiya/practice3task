@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(219, 219, 219);
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+
+main p {
+  font-weight: 300;
+  font-size: 24px;
+  padding: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+main .title h1 {
+  margin-bottom: 2em;
+  color: black;
+  font-weight: 600;
+}
+main .section-1 .inline p {
+  display: inline;
+}
+main .section-2 {
+  margin-top: 4em;
+}
+main .section-2 .block p {
+  display: block;
+}
+main .section-3 .inline-block p {
+  display: inline-block;
+}
+main .section-4 .flex .flex-section-1 {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+main .section-4 .flex .flex-section-2 {
+  display: flex;
+  align-items: flex-end;
+}
+main .section-4 .flex .flex-section-2 p {
+  margin-right: 10px;
+}
+main .section-4 .flex .flex-section-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
